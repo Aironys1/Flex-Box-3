@@ -1,0 +1,23 @@
+
+
+.container {
+    display: flex;
+    height:100vh;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+    background-color:#000000;
+    flex-wrap: wrap;
+    align-content: space-around;
+    
+}
+
+.container div{
+    width:200px;
+    height:200px;
+    background-color: aliceblue;
+    margin: 10px;
+    padding: 10px;
+    font-size:20px;
+}
+
